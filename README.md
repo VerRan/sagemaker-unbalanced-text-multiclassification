@@ -13,6 +13,11 @@ BlazingText 是 AWS Sagemaker 的一个内置算法，提供了 Word2vec 和文�
 - 根据诊断报告疾病预测，真实的临床数据中也只有少部分数据真的患有某种疾病；
 - 新闻分类，对网站的大量新闻进行分类判断是属于经济的，还是文化的等，但是不同网站类别偏差较大，比如娱乐网站娱乐新闻偏多，但是也会有其他类别的新闻。
 
+## 架构图
+
+![image](https://github.com/nwcd-samples/sagemaker-unbalanced-text-multiclassification/blob/main/architect.png)
+
+
 ## 文件说明
 - generateUnbalancedData.ipynb: 从公开数据集 dbpedia 中生成的不均衡数据集
 
